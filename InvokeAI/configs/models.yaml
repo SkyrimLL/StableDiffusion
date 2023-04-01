@@ -1,0 +1,1129 @@
+---
+ANIME_2D_FLAT_aniflatmixAnimeFlatColorStyle:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/aniflatmixAnimeFlatColorStyle_v10.safetensors
+  width: 512
+ANIME_2D_FLAT_comiNoir:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/comiNoirV2_comicNoir.ckpt
+  width: 512
+ANIME_2D_FLAT_comiNoirHard:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/comiNoirV2_comiNoirHard.safetensors
+  width: 512
+ANIME_2D_FLAT_furnace34:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/furnace34_furnace34.safetensors
+  width: 512
+ANIME_2D_SHADED_23325NormallyFish_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/23325NormallyFish_v10.safetensors
+  width: 512
+ANIME_2D_SHADED_abyssorangemix2_Hard:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/abyssorangemix2_Hard.safetensors
+  width: 512
+ANIME_2D_SHADED_ambientmixAnAnime:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/orangemix.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/ambientmixAnAnime_v10.safetensors
+  width: 512
+ANIME_2D_SHADED_cyberpunkAnime:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/cyberpunkAnime_cyberpunkAnime.safetensors
+  width: 512
+ANIME_2D_SHADED_demi_01:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/demi_01.safetensors
+  width: 512
+ANIME_2D_SHADED_lewdpunkEDGE_10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-8400009-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/lewdpunkEDGE_10.safetensors
+  width: 512
+ANIME_2D_SHADED_linneamix_v74:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-8400001-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/linneamix_v74.safetensors
+  width: 512
+ANIME_2D_SHADED_stymMidreal25DAnime_V10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/stymMidreal25DAnime_stymMidrealVersion10.safetensors
+  width: 512
+ANIME_2D_SHADED_stymMidreal25DAnime_V11:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/stymMidreal25DAnime_stymMidrealVersion11.safetensors
+  width: 512
+ANIME_2D_SHADED_waifu-diffusion-1.4:
+  description: An SD-1.5 model trained on 680k anime/manga-style images (2.13 GB)
+  format: diffusers
+  repo_id: hakurei/waifu-diffusion
+  vae:
+    repo_id: stabilityai/sd-vae-ft-mse
+ANIME_3D_14MegaModelMergeWTF:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/14MegaModelMergeWTF_14MM16fpSmallerSize.safetensors
+  width: 512
+ANIME_3D_3moonNIReal:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/3moonNIReal_3moonNIRealV2.safetensors
+  width: 512
+ANIME_3D_4moonNI:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/4moonNI_4moonNI.safetensors
+  width: 512
+ANIME_3D_REAL_faetastic_:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\kl-f8-anime2.ckpt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/faetastic_.safetensors
+  width: 512
+ANIME_3D_REAL_lyriel_v13:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/lyriel_v13.safetensors
+  width: 512
+COMICS_2D_SHADED_icomix_V02:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/icomix_V02Pruned.safetensors
+  width: 512
+COMICS_2D_SHADED_icomix_V03:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/icomix_V03Pruned.safetensors
+  width: 512
+COMIC_2D_FLAT_comiNoirV2_comiNoirV2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/comiNoirV2_comiNoirV2.safetensors
+  width: 512
+COMIC_2D_SHADED_comicBabes_v1:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/anything-v4.0.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/comicBabes_v1.safetensors
+  width: 512
+COMIC_2D_SHADED_trinart-2.0:
+  description: An SD-1.5 model finetuned with ~40K assorted high resolution manga/anime-style images (2.13 GB)
+  format: diffusers
+  repo_id: naclbit/trinart_stable_diffusion_v2
+  vae:
+    repo_id: stabilityai/sd-vae-ft-mse
+COMIC_2D_comicDiffusion_v2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/comicDiffusion_v2.ckpt
+  width: 512
+FANTASY_RPG:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: RPG Fantasy
+  format: ckpt
+  height: 512
+  vae: None
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/rpg_V4.safetensors
+  width: 512
+FANTASY_dungeonsNWaifusNew_dungeonsNWaifus22:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/dungeonsNWaifusNew_dungeonsNWaifus22.safetensors
+  width: 512
+GENERIC_animeGirl_opendream:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/animeGirl_opendream.ckpt
+  width: 512
+HENTAI_2D_SHADED_BloodorangemixHardcore:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\orangemix.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/BloodorangemixHardcore_bloodorangemix.safetensors
+  width: 512
+HENTAI_2D_SHADED_hassakuHentaiModel_hassakuv1m:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/hassakuHentaiModel_hassakuv1m.safetensors
+  width: 512
+HENTAI_3D_EpicMix:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: NSFW shaded anime style
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\kl-f8-anime2.ckpt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/epicMixAnimeNSFW_v4.safetensors
+  width: 512
+HENTAI_3D_duchaitenStylelikeme:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/duchaitenStylelikeme_duchaitenStylelikeme.safetensors
+  width: 512
+HENTAI_3D_duchaitenaiart1:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/duchaitenaiart_V31.safetensors
+  width: 512
+HENTAI_3D_duchaitendarkside:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/duchaitendarkside_darksideV30Fp16NoEma.safetensors
+  width: 512
+HENTAI_3D_duchaitenjourney:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/duchaitenjourney_V30A.safetensors
+  width: 512
+HORROR_creepyDiffusion:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/creepyDiffusion_v20.safetensors
+  width: 512
+HORROR_jimJORCRAF:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/jimJORCRAF_version10.safetensors
+  width: 512
+HORROR_jimTERUMODE:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/jimTERUMODE_version10.ckpt
+  width: 512
+HORROR_jimTERUPOONMODE:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/jimTERUPOONMODE_version10.safetensors
+  width: 512
+PHOTO_3D_epi25dphotogodess_v1:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/epi25dphotogodess_v1.safetensors
+  width: 512
+PHOTO_PORTRAITS_epiHyperphotogodess_v1CLIPFix:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/epiHyperphotogodess_v1CLIPFix.safetensors
+  width: 512
+PHOTO_PORTRAIT_aToZovyaRPGArtistsTools:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/aToZovyaRPGArtistsTools15_sd15V1.safetensors
+  width: 512
+PHOTO_PORTRAIT_aresMix_v01:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/aresMix_v01.safetensors
+  width: 512
+PHOTO_PORTRAIT_arteroschromahasrpg_v1:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/arteroschromahasrpg_v1.safetensors
+  width: 512
+PHOTO_PORTRAIT_cyberrealistic_V12:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\vae-ft-mse-84vscode-yaml-sort.octal.2-ema-pruned.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/cyberrealistic_v12.safetensors
+  width: 512
+PHOTO_PORTRAIT_cyberrealistic_V13:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/cyberrealistic_v13.safetensors
+  width: 512
+PHOTO_PORTRAIT_elegance_V37:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/elegance_37.safetensors
+  width: 512
+PHOTO_PORTRAIT_experience_80:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/experience_80.safetensors
+  width: 512
+PHOTO_PORTRAIT_lunasAngelsARealism:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/lunasAngelsARealism_lunasAngelsv2Desi.safetensors
+  width: 512
+PHOTO_PORTRAIT_oneMix_1MixR:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-8400008-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/oneMix_1MixR.safetensors
+  width: 512
+PHOTO_PORTRAIT_oneMix_1MixS:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/oneMix_1MixS.safetensors
+  width: 512
+PHOTO_realisticAnime:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/realisticAnimeV2_v2.safetensors
+  width: 512
+R_PHOTO_analogMadness_V01:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/analogMadness_analogMadnessV1.safetensors
+  width: 512
+R_PHOTO_analogMadness_V02:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/analogMadness_analogMadnessV2.safetensors
+  width: 512
+R_PHOTO_analogMadness_V03:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/analogMadness_analogMadnessV3.safetensors
+  width: 512
+R_PHOTO_analogMadness_V11:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/analogMadness_analogMadnessV11.safetensors
+  width: 512
+R_PHOTO_artErosAerosATribute_aerosNovae:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-84vscode-yaml-sort.octal.2-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/artErosAerosATribute_aerosNovae.safetensors
+  width: 512
+R_PHOTO_hassanblend1512AndPrevious_hassanblend14:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/hassanblend1512AndPrevious_hassanblend14.safetensors
+  width: 512
+R_PHOTO_hassanblend1512AndPrevious_hassanblend15:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/hassanblend1512AndPrevious_hassanblend15.safetensors
+  width: 512
+R_PHOTO_hassanblend1512AndPrevious_hassanblend1512:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/hassanblend1512AndPrevious_hassanblend1512.safetensors
+  width: 512
+R_PHOTO_lewdpunkDAWNEdition_10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/lewdpunkDAWNEdition_10.safetensors
+  width: 512
+XX_KINK_BDSM_latexReality:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/latexRealityV30Final_latexRealityV3.safetensors
+  width: 512
+XX_KINK_BDSM_realisticLatexGirls:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/realisticLatexGirls_.safetensors
+  width: 512
+XX_KINK_ORAL_uberRealisticPornMergeURPM_urpmCE1Alpha:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/uberRealisticPornMergeURPM_urpmCE1Alpha.safetensors
+  width: 512
+XX_KINK_ORAL_uberRealisticPornMergeURPM_urpmCE2Alpha:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/uberRealisticPornMergeURPM_urpmCE2Alpha.safetensors
+  width: 512
+XX_KINK_WS_realisticAsiaDollPeeing:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/realisticAsiaDollPeeing_v10.ckpt
+  width: 512
+XX_KINK_WS_realpiss:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/realpissV1_realPissV1.ckpt
+  width: 512
+XX_KINK_boobsInBed:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/boobsInBed_boobsInBed10.ckpt
+  width: 512
+XX_KINK_butterflyPussy_safetensors:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/butterflyPussy_safetensors.safetensors
+  width: 512
+XX_KINK_peefusion:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/peefusion_V2.ckpt
+  width: 512
+X_PHOTO_daugeph_:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/daugeph_.safetensors
+  width: 512
+X_PHOTO_eroticVision_V1:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/eroticVision_v1.safetensors
+  width: 512
+X_PHOTO_eroticVision_V2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/eroticVision_v2.safetensors
+  width: 512
+X_PHOTO_lazymixRealAmateur:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/lazymixRealAmateur_v10.safetensors
+  width: 512
+X_PHOTO_pornModelMerge:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/pornModelMerge_pornModelMerge.safetensors
+  width: 512
+X_PHOTO_pornModelMerge_V2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/pornModelMergeV2_pornModelMergeV2.ckpt
+  width: 512
+X_PHOTO_pornvision:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/pornvision_v2.safetensors
+  width: 512
+X_PHOTO_uberRealisticPornMerge:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: Adult Realistic
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-84vscode-yaml-sort.octal.2-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/uberRealisticPornMerge_urpmv13.safetensors
+  width: 512
+bbaimix_:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/bbaimix_.ckpt
+  width: 512
+bismuthmix_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/bismuthmix_v10.safetensors
+  width: 512
+bweshmix_v11BakedVaePrunedNo:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/bweshmix_v11BakedVaePrunedNo.safetensors
+  width: 512
+clovermix_v20:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/clovermix_v20.safetensors
+  width: 512
+conceptCostume_ccdhtArtstyleV0Raw:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/conceptCostume_ccdhtArtstyleV0Raw.safetensors
+  width: 512
+criarcysFantasyTo_v30:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/criarcysFantasyTo_v30.safetensors
+  width: 512
+default-analog-diffusion-1.0:
+  description: An SD-1.5 model trained on diverse analog photographs (2.13 GB)
+  format: diffusers
+  repo_id: wavymulder/Analog-Diffusion
+default-d&d-diffusion-1.0:
+  description: Dungeons & Dragons characters (2.13 GB)
+  format: diffusers
+  repo_id: 0xJustin/Dungeons-and-Diffusion
+default-dreamlike-photoreal-2.0:
+  description: A photorealistic model trained on 768 pixel images based on SD 1.5 (2.13 GB)
+  format: diffusers
+  repo_id: dreamlike-art/dreamlike-photoreal-2.0
+default-openjourney-4.0:
+  description: An SD 1.5 model fine tuned on Midjourney; prompt with "mdjrny-v4 style" (2.13 GB)
+  format: diffusers
+  repo_id: prompthero/openjourney
+  vae:
+    repo_id: stabilityai/sd-vae-ft-mse
+default-sd-inpainting-1.5:
+  description: RunwayML SD 1.5 model optimized for inpainting, diffusers version (4.27 GB)
+  format: diffusers
+  repo_id: runwayml/stable-diffusion-inpainting
+  vae:
+    repo_id: stabilityai/sd-vae-ft-mse
+default-sd-inpainting-2.0:
+  description: Stable Diffusion version 2.0 inpainting model (5.21 GB)
+  format: diffusers
+  repo_id: stabilityai/stable-diffusion-2-inpainting
+default-stable-diffusion-1.5:
+  default: true
+  description: Stable Diffusion version 1.5 diffusers model (4.27 GB)
+  format: diffusers
+  repo_id: runwayml/stable-diffusion-v1-5
+  vae:
+    repo_id: stabilityai/sd-vae-ft-mse
+default-stable-diffusion-2.1-768:
+  description: Stable Diffusion version 2.1 diffusers model, trained on 768 pixel images (5.21 GB)
+  format: diffusers
+  repo_id: stabilityai/stable-diffusion-2-1
+  vae:
+    repo_id: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+deliberate-1.0:
+  description: Versatile model that produces detailed images up to 768px (4.27 GB)
+  format: diffusers
+  repo_id: XpucT/Deliberate
+deliberate_v2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/deliberate_v2.safetensors
+  width: 512
+deliberatedMixed_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/deliberatedMixed_v10.safetensors
+  width: 512
+djr_20:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/djr_20.ckpt
+  width: 512
+doctorDiffusion_doctorDiffusionV08:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/doctorDiffusion_doctorDiffusionV08.safetensors
+  width: 512
+dreadV2_dreadV2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/dreadV2_dreadV2.safetensors
+  width: 512
+dreamlikeDiffusion10_10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/dreamlikeDiffusion10_10.ckpt
+  width: 512
+dreamlikesamkuvshino_safetensors:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/dreamlikesamkuvshino_safetensors.safetensors
+  width: 512
+dvmech_200:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/dvmech_200.safetensors
+  width: 512
+eerieorangemix2Hardcore_eerieorangemix2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\orangemix.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/eerieorangemix2Hardcore_eerieorangemix2.safetensors
+  width: 512
+elldrethsStolendreams_stolenDreams:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/elldrethsStolendreams_stolenDreams.safetensors
+  width: 512
+endlessreality_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/endlessreality_v10.safetensors
+  width: 512
+epi25dphotogodess_v2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/epi25dphotogodess_v2.safetensors
+  width: 512
+epicDiffusion_epicDiffusion11:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/epicDiffusion_epicDiffusion11.safetensors
+  width: 512
+epicrealism_v1:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/epicrealism_v1.safetensors
+  width: 512
+fantasialixa_01:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/fantasialixa_01.safetensors
+  width: 512
+galaxytimemachinesForyou_photo_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/galaxytimemachinesForyou_photo_v10.safetensors
+  width: 512
+galaxytimemachinesGTM_v3:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/galaxytimemachinesGTM_v3.safetensors
+  width: 512
+hardblend_:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-84vscode-yaml-sort.octal.15-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/hardblend_.safetensors
+  width: 512
+hardblend_Nsfw:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/hardblend_Nsfw.safetensors
+  width: 512
+holygenex_:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/holygenex_.safetensors
+  width: 512
+idolGirlLooksLike_idolV20:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/idolGirlLooksLike_idolV20.ckpt
+  width: 512
+inkpunk-1.0:
+  description: Stylized illustrations inspired by Gorillaz, FLCL and Shinkawa; prompt with "nvinkpunk" (4.27 GB)
+  format: diffusers
+  repo_id: Envvi/Inkpunk-Diffusion
+inkpunkDiffusion_v2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/inkpunkDiffusion_v2.ckpt
+  width: 512
+lazymix_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/lazymix_v10.safetensors
+  width: 512
+liberty_main:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/liberty_main.safetensors
+  width: 512
+libmix_v21PrunedFp16Styled:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/libmix_v21PrunedFp16Styled.safetensors
+  width: 512
+marsMix_v01:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/marsMix_v01.safetensors
+  width: 512
+marsMix_v02:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/marsMix_v02.safetensors
+  width: 512
+mdjV4Portraits_v1:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/mdjV4Portraits_v1.ckpt
+  width: 512
+megafem_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/megafem_v10.safetensors
+  width: 512
+metagodSelfieMix_metagodSelfieMix10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/metagodSelfieMix_metagodSelfieMix10.safetensors
+  width: 512
+neurogenV11_v11:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\neurogen_vae.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/neurogenV11_v11.safetensors
+  width: 512
+opendream_20:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/opendream_20.safetensors
+  width: 512
+pastelmixalikeSamdoesarts_v1Pastelmixalike:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/pastelmixalikeSamdoesarts_v1Pastelmixalike.safetensors
+  width: 512
+pfg_111Safetensors:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/pfg_111Safetensors.safetensors
+  width: 512
+phc_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/phc_v10.safetensors
+  width: 512
+photomaxultrav1_:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\vae-ft-mse-840000-ema-pruned.vae.pt
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/photomaxultrav1_.safetensors
+  width: 512
+portrait-plus-1.0:
+  description: An SD-1.5 model trained on close range portraits of people; prompt with "portrait+" (2.13 GB)
+  format: diffusers
+  repo_id: wavymulder/portraitplus
+projectAIO_allInOneAIOV3:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/projectAIO_allInOneAIOV3.safetensors
+  width: 512
+radiant_v4:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/radiant_v4.safetensors
+  width: 512
+realbiter_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/realbiter_v10.safetensors
+  width: 512
+realeldenapocalypse_Analogsexknoll:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/realeldenapocalypse_Analogsexknoll.safetensors
+  width: 512
+realisticVisionV20_v20:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/realisticVisionV20_v20.safetensors
+  width: 512
+refined_V10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/refined_V10.safetensors
+  width: 512
+rfktrsDarkdream_v10:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/rfktrsDarkdream_v10.safetensors
+  width: 512
+roboeticsMix_rmix01Ckpt:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/roboeticsMix_rmix01Ckpt.ckpt
+  width: 512
+seek-art-mega-1.0:
+  description: A general use SD-1.5 "anything" model that supports multiple styles (2.1 GB)
+  format: diffusers
+  repo_id: coreco/seek.art_MEGA
+  vae:
+    repo_id: stabilityai/sd-vae-ft-mse
+stable-diffusion-2.1-base:
+  default: true
+  description: Stable Diffusion version 2.1 diffusers model, trained on 512 pixel images (5.21 GB)
+  format: diffusers
+  repo_id: stabilityai/stable-diffusion-2-1-base
+uberrealisticDreamy_pfg:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:/Tools/_MODELS/VAE/vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/uberrealisticDreamy_pfg.safetensors
+  width: 512
+verisimilitude_Dark:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/verisimilitude_Dark.safetensors
+  width: 512
+verisimilitude_v14:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/verisimilitude_v14.safetensors
+  width: 512
+wondermix_V2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/wondermix_V2.safetensors
+  width: 512
+woopwoopPhoto_20Alpha2:
+  config: configs/stable-diffusion/v1-inference.yaml
+  description: ''
+  format: ckpt
+  height: 512
+  vae: E:\Tools\_MODELS\VAE\vae-ft-mse-840000-ema-pruned.safetensors
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/woopwoopPhoto_20Alpha2.safetensors
+  width: 512
+wyvernmix_v7:
+  config: configs/stable-diffusion/v1-inference.yaml
+  default: false
+  description: ''
+  format: ckpt
+  height: 512
+  weights: E:/Tools/_MODELS/stable-diffusion-checkpoints/wyvernmix_v7.safetensors
+  width: 512
