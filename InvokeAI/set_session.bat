@@ -1,6 +1,6 @@
 @echo off
     set OUTFOLDER_PATH=E:\Documents\GenerativeAI\StableDiffusion
-    set OUTFOLDER_DEFAULT_PREFIX=X\HouseWives
+    set OUTFOLDER_DEFAULT_PREFIX=_SANDBOX
     set OUTFOLDER_DATED_PREFIX=_SANDBOX
     set NEW_STARTER_FOLDER=E:\Documents\GenerativeAI\StableDiffusion\__NEW
     set DEFAULT_MODEL=hardblend_Nsfw
