@@ -3,7 +3,7 @@
     set OUTFOLDER_DEFAULT_PREFIX=_SANDBOX
     set OUTFOLDER_DATED_PREFIX=_SANDBOX
     set NEW_STARTER_FOLDER=E:\Documents\GenerativeAI\StableDiffusion\__NEW
-    set DEFAULT_MODEL=hardblend_Nsfw
+    set DEFAULT_MODEL=default-openjourney-4.0
 
     set YYYYMMDD=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%
 

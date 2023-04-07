@@ -16,6 +16,7 @@ That set_session.bat file will do a few things:
 - Asks if you want to use an automatically generated daily session folder (and reuse it if you restart the website in the same day) or if you want to use a static session folder (_SANDBOX by default)
 - If the _SANDBOX folder doesn't exist or has been renamed, a new folder will b created based on an empty session folder called '__NEW' (also in the repo for reference)
 - You can change the name of the session files in the batch file
+- You can change the default model as an option in the batch file as well.
 
 
 
