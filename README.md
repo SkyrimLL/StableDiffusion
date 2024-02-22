@@ -1,4 +1,4 @@
-# Stable Diffusion
+# Invoke utilities
 Patches and customizations related to running Stable Diffusion locally.
 
 For the moment, this repo only has some tweaks I created to work with  Invoke (previously InvokeAI)
