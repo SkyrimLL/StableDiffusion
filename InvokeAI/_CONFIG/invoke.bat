@@ -4,7 +4,7 @@ PUSHD "%~dp0"
 setlocal
 
 call .venv\Scripts\activate.bat
-set INVOKEAI_ROOT=.
+set INVOKEAI_ROOT=E:\Tools\InvokeAI
 
 :start
 echo Desired action:
