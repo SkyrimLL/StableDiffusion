@@ -1,0 +1,39 @@
+# LM Studio to Invoke AI - Configuration
+
+# API Endpoints
+lm_studio_api: "http://localhost:1234/api/v1/chat"
+# Optional: pin a specific model key (e.g. "lmstudio-community/meta-llama-3.1-8b-instruct").
+# If omitted, the script auto-detects the first loaded LLM.
+# lm_studio_model: ""
+invoke_ai_api: "http://localhost:9090/api/v1"
+invoke_ai_api_v2: "http://localhost:9090/api/v2"
+
+# LM Studio conversation path
+# Use the base home path; the rest is appended in the script
+home: "E:\\Tools"
+convo_subpath: ".lmstudio/conversations/*.json"
+
+# Summarization settings
+system_prompt: "You are a visual artist. Read the following conversation and describe ONE striking, high-detail image that represents its core theme. Output ONLY the image prompt (keywords, lighting, style). No intro text."
+user_prompt: "Summarize this story in a very short paragraph suite to generate an image for this story. Provide instructions for  style, composition to generate a realistic scene. The format should be specific for tools like Midjourney. Keep it short."
+
+# Image generation settings
+default_model: "Juggernaut XL v9"
+number_of_images: 1
+number_of_prompt_variants: 1
+number_of_files: 3
+
+# Image parameters
+width: 960
+height: 1280
+steps: 30
+cfg_scale: 7.5
+scheduler: "dpmpp_sde"
+positive_prompt: "masterpiece, best quality"
+negative_prompt: "((title, text)), low quality, distorted, mutated, safe_neg, deformed eyes deformed hands deformed limbs, logo, title, watermark, worst quality, low res, blurry, text, banner, extra digits, cropped, jpeg artifacts, signature, username, error, sketch, duplicate,"
+
+# VAE override: set this to a VAE model name from your Invoke AI library to replace
+# the model's bundled VAE. Fixes black images caused by fp16 VAE overflow in some models.
+# Leave blank or remove to use the model's default VAE.
+# Example: "sdxl-vae-fp16-fix"
+vae_override: ""

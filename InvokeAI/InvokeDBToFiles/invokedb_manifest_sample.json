@@ -1,0 +1,17 @@
+{ 
+    "target_path": "<Path to your local Invoke Archive folder>",
+    "sessions_folder_name": "_SESSIONS", 
+    "boards_folder_name":"_BOARDS",
+    "invokedb_list": [
+        {
+            "name": "<Name of local Invoke instance>",
+            "db_file": "<Path to invokeai.db file>",
+            "source_path": "<Path to Invoke image output folder>"
+        },
+        {
+            "name": "InvokeAI-3.3.4", 
+            "db_file": "E:\\Documents\\GenerativeAI\\InvokeAI-3.3.4\\databases\\invokeai.db",
+            "source_path": "E:\\Documents\\GenerativeAI\\InvokeAI-3.3.4\\images\\" 
+        }
+    ]
+} 

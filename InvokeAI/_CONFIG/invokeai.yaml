@@ -1,11 +1,13 @@
 # Internal metadata - do not edit:
-schema_version: 4.0.0
+schema_version: 4.0.3
 
-# Put user settings here - see https://invoke-ai.github.io/InvokeAI/features/CONFIGURATION/:
-host: 192.168.1.250
-db_dir: E:\Documents\GenerativeAI\InvokeAI\databases
-outputs_dir: E:\Documents\GenerativeAI\InvokeAI
-ram: 9.0
-vram: 9.0
-convert_cache: 500
+# Put user settings here - see https://invoke.ai/configuration/invokeai-yaml/:
+host: 192.168.1.251
+models_dir: G:\GenAI-data\InvokeAI-4-models\models
+db_dir: E:\Documents\GenerativeAI\Invoke\databases
+outputs_dir: E:\Documents\GenerativeAI\Invoke
+device_working_mem_gb: 4.0
+ram: 20.0
+vram: 20.0
+pytorch_cuda_alloc_conf: backend:cudaMallocAsync
 device: cuda
