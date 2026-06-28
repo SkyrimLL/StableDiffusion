@@ -489,7 +489,7 @@ def repair_image_dates_db(db_mapper):
 
         pbar.close()
 
-    print(f">>>> Processed {processed_images_count} images")
+    print(f">>>> Processed {processed_images_count} images. Total files: {totalfilecount}")
 
 
 def catalog_stat():

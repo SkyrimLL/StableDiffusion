@@ -298,7 +298,7 @@ def monitor_queue(batch_ids, api_url):
     
     # Trigger Desktop Notification
     notification.notify(
-        title="Invoke AI: Story Renders Complete",
+        title="Invoke AI: Story Renders Complete.",
         message=f"All {len(batch_ids)} stories have been processed.",
         app_name="AI Workflow",
         timeout=10
