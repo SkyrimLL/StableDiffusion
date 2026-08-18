@@ -1,0 +1,34 @@
+# Path to the Midjourney data export ZIP (or an already-extracted folder).
+# Request your archive from: https://www.midjourney.com/account -> "Download my data"
+# Supports wildcards for processing multiple archives, e.g., "midjourney*.zip"
+# All matching archives will be processed into the same output folder, organized by date.
+archive_path: "midjourney_export.zip"
+
+# Root output directory. Images are placed in dated sub-folders inside here.
+output_path: "output"
+
+# Sub-folder name format (Python strftime).
+# Default produces folders like: 2024-03-15
+date_format: "%Y-%m-%d"
+
+# Job types to exclude. Common values:
+#   imagine   – original generation
+#   variation – variation on a prior result
+#   upscale   – single upscaled image
+#   remix     – remixed prompt
+#   inpaint   – in-painting / vary-region
+#   blend     – /blend multi-image jobs
+# Leave empty ([]) to include every type.
+skip_types: []
+
+# When true, images that already exist at the destination are skipped.
+# Set to false to force a full re-import.
+skip_existing: true
+
+# When true, reprocess archives even if they have been previously imported.
+# By default, the tool tracks processed archives in .midjourney_processed_archives.txt
+# and skips them on subsequent runs. Set to true or use --force flag to override.
+force_reload: false
+
+# Date string used for jobs that have no recognisable timestamp in the metadata.
+fallback_date: "unknown-date"
