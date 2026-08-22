@@ -1,0 +1,52 @@
+# BenchmarkInvokeAI - Configuration
+
+# API Endpoints
+invoke_ai_api: "http://localhost:9090/api/v1"
+invoke_ai_api_v2: "http://localhost:9090/api/v2"
+
+# Default prompt to use if none provided via --prompt argument
+default_prompt: "a beautiful landscape with mountains and a lake at sunset"
+
+# Output directory for benchmark results JSON files
+logs_path: "./logs"
+
+# Model Selection
+# Filter models by base type (e.g., 'sdxl', 'sd-1', 'sd-2')
+# Leave blank or comment out to benchmark all models
+base_filter: "sdxl"
+
+# Maximum number of models to benchmark
+# Leave blank or set to 0 to benchmark all available models
+max_models: 15
+
+# Randomize model selection
+# When true, randomly selects max_models from available models
+# When false, selects the first max_models in the list
+randomize_models: true
+
+# Image generation parameters
+width: 1024
+height: 1024
+steps: 30
+cfg_scale: 7.5
+scheduler: "dpmpp_sde"
+
+# Seed for reproducible results
+# Set to null or remove to use random seeds
+seed: 42
+
+# Optional prompt additions
+positive_prompt: "masterpiece, best quality"
+negative_prompt: "low quality, distorted, mutated, deformed, blurry, text, watermark, worst quality"
+
+# VAE override: set this to a VAE model name from your Invoke AI library
+# Leave blank or remove to use each model's default VAE
+# Example: "sdxl-vae-fp16-fix"
+vae_override: ""
+
+# Queue monitoring configuration
+# Maximum seconds to wait for a single batch before timing out (default: 600)
+batch_timeout: 600
+
+# Maximum consecutive errors before skipping a batch (default: 3)
+max_retries: 3
