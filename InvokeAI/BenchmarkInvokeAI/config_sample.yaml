@@ -7,6 +7,10 @@ invoke_ai_api_v2: "http://localhost:9090/api/v2"
 # Default prompt to use if none provided via --prompt argument
 default_prompt: "a beautiful landscape with mountains and a lake at sunset"
 
+# Optional prompt additions
+positive_prompt: "masterpiece, best quality"
+negative_prompt: "low quality, distorted, mutated, deformed, blurry, text, watermark, worst quality"
+
 # Output directory for benchmark results JSON files
 logs_path: "./logs"
 
@@ -24,6 +28,11 @@ max_models: 15
 # When false, selects the first max_models in the list
 randomize_models: true
 
+# Number of iterations (test runs) per model
+# Each model will be tested this many times with the same settings
+# Useful for measuring consistency and average performance
+iterations: 1
+
 # Image generation parameters
 width: 1024
 height: 1024
@@ -34,10 +43,6 @@ scheduler: "dpmpp_sde"
 # Seed for reproducible results
 # Set to null or remove to use random seeds
 seed: 42
-
-# Optional prompt additions
-positive_prompt: "masterpiece, best quality"
-negative_prompt: "low quality, distorted, mutated, deformed, blurry, text, watermark, worst quality"
 
 # VAE override: set this to a VAE model name from your Invoke AI library
 # Leave blank or remove to use each model's default VAE

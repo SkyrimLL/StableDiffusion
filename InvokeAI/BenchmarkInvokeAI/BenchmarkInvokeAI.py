@@ -447,8 +447,8 @@ def main():
     parser.add_argument(
         "--iterations",
         type=int,
-        default=1,
-        help="Number of iterations per model (default: 1)"
+        default=None,
+        help="Number of iterations per model (default: from config or 1)"
     )
     parser.add_argument(
         "--output",
@@ -486,7 +486,7 @@ def main():
     # Get base filter from config if not specified in CLI
     base_filter = args.base_filter or config.get('base_filter')
     max_models = args.max_models or config.get('max_models')
-    iterations = args.iterations
+    iterations = args.iterations if args.iterations is not None else config.get('iterations', 1)
 
     # Fetch all available models
     all_models = get_all_models(invoke_ai_api_v2, base_filter=base_filter, model_type="main")

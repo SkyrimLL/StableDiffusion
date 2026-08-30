@@ -4,7 +4,7 @@
 # TO DO  
 # - Incremental updates are not detecting board assignment
  
-import  InvokeDBAPI  as inv
+import  _InvokeDBAPI  as inv
 
 import os
 import os.path
