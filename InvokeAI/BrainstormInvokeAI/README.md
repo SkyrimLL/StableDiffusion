@@ -1,4 +1,4 @@
-# BenchmarkInvokeAI
+# BrainstormInvokeAI
 
 A Python tool to benchmark InvokeAI models by running the same prompt across multiple models and measuring performance.
 
@@ -63,13 +63,13 @@ Edit `config.yaml` to customize your benchmark settings:
 Run with the default prompt from config.yaml:
 
 ```bash
-python BenchmarkInvokeAI.py
+python BrainstormInvokeAI.py
 ```
 
 Or provide a custom prompt:
 
 ```bash
-python BenchmarkInvokeAI.py --prompt "a beautiful sunset over mountains"
+python BrainstormInvokeAI.py --prompt "a beautiful sunset over mountains"
 ```
 
 ### Limit Number of Models
@@ -77,7 +77,7 @@ python BenchmarkInvokeAI.py --prompt "a beautiful sunset over mountains"
 Benchmark only the first N models:
 
 ```bash
-python BenchmarkInvokeAI.py --prompt "a beautiful sunset" --max-models 3
+python BrainstormInvokeAI.py --prompt "a beautiful sunset" --max-models 3
 ```
 
 ### Filter by Base Model
@@ -85,7 +85,7 @@ python BenchmarkInvokeAI.py --prompt "a beautiful sunset" --max-models 3
 Benchmark only SDXL models:
 
 ```bash
-python BenchmarkInvokeAI.py --prompt "a beautiful sunset" --base-filter sdxl
+python BrainstormInvokeAI.py --prompt "a beautiful sunset" --base-filter sdxl
 ```
 
 ### Multiple Iterations
@@ -93,7 +93,7 @@ python BenchmarkInvokeAI.py --prompt "a beautiful sunset" --base-filter sdxl
 Run multiple iterations per model for better timing data:
 
 ```bash
-python BenchmarkInvokeAI.py --prompt "a beautiful sunset" --iterations 3
+python BrainstormInvokeAI.py --prompt "a beautiful sunset" --iterations 3
 ```
 
 ### Custom Output File
@@ -101,13 +101,13 @@ python BenchmarkInvokeAI.py --prompt "a beautiful sunset" --iterations 3
 Specify where to save results:
 
 ```bash
-python BenchmarkInvokeAI.py --prompt "a beautiful sunset" --output my_benchmark.json
+python BrainstormInvokeAI.py --prompt "a beautiful sunset" --output my_benchmark.json
 ```
 
 ### Combined Example
 
 ```bash
-python BenchmarkInvokeAI.py \
+python BrainstormInvokeAI.py \
   --prompt "a majestic dragon flying over a castle" \
   --max-models 5 \
   --base-filter sdxl \

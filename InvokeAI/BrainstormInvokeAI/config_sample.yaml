@@ -1,11 +1,11 @@
-# BenchmarkInvokeAI - Configuration
+# BrainstormInvokeAI - Configuration
 
 # API Endpoints
 invoke_ai_api: "http://localhost:9090/api/v1"
 invoke_ai_api_v2: "http://localhost:9090/api/v2"
 
 # Default prompt to use if none provided via --prompt argument
-default_prompt: "a beautiful landscape with mountains and a lake at sunset"
+default_prompt: "<your prompts here>"
 
 # Optional prompt additions
 positive_prompt: "masterpiece, best quality"
