@@ -5,8 +5,9 @@ invoke_ai_api: "http://localhost:9090/api/v1"
 invoke_ai_api_v2: "http://localhost:9090/api/v2"
 
 # Default prompt to use if none provided via --prompt argument
-default_prompt: "<your prompts here>"
-
+default_prompt: |
+    <your prompt here>
+    
 # Optional prompt additions
 positive_prompt: "masterpiece, best quality"
 negative_prompt: "low quality, distorted, mutated, deformed, blurry, text, watermark, worst quality"
