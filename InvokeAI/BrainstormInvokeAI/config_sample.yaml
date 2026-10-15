@@ -56,3 +56,11 @@ batch_timeout: 600
 
 # Maximum consecutive errors before skipping a batch (default: 3)
 max_retries: 3
+
+# Web server configuration (used by --server mode)
+# Port the local web UI listens on
+server_port: 7865
+# Start the web server by default when running with no CLI arguments (true/false)
+server_autostart: false
+# Open a browser automatically when the server starts (true/false)
+server_open_browser: true

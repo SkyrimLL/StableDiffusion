@@ -58,6 +58,35 @@ Edit `config.yaml` to customize your benchmark settings:
 
 ## Usage
 
+### Web UI (Server Mode)
+
+Launch a local web server with a form to edit every config option, save it back
+to `config.yaml`, and run the brainstorm from the browser with live status:
+
+```bash
+python BrainstormInvokeAI.py --server
+```
+
+This opens `http://127.0.0.1:7865` in your browser. From the page you can:
+
+- Edit all configuration options in a form (values load from `config.yaml`)
+- **Save** changes back to `config.yaml` (comments/formatting are preserved)
+- **Save & Run Brainstorm** to start a benchmark with the current settings
+- Watch live run status and log output in the page (the console output is shown as well)
+
+Optional flags: `--host` (default `127.0.0.1`) and `--port` (overrides `server_port`).
+
+```bash
+python BrainstormInvokeAI.py --server --host 0.0.0.0 --port 8080
+```
+
+The web server itself is configured under the **Web Server** section of
+`config.yaml` (also editable from the form):
+
+- `server_port`: Port the web UI listens on (default `7865`)
+- `server_autostart`: If `true`, running the script with no CLI arguments launches the web UI
+- `server_open_browser`: If `true`, a browser opens automatically when the server starts
+
 ### Basic Benchmark
 
 Run with the default prompt from config.yaml:
